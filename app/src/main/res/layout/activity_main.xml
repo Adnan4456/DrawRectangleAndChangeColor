@@ -8,7 +8,10 @@
     <com.example.customeviewrectangle.CustomRectangleView
         android:id="@+id/customView"
         android:layout_width="match_parent"
-        android:layout_height="350dp" />
+        android:layout_height="350dp"
+        app:square_color="@color/squareColor"
+        app:square_size="150dp"
+        />
 
 
     <Button
